@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5rem;
+
+}
+
+
+div.carousel {
+    width: 80%;
+    background-color: red;
+    height: 500px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+
+
+}
+
+button.next,
+button.before {
+    position: absolute;
+    
+}
+
+
+
