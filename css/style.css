@@ -9,14 +9,16 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 
 div.carousel {
     width: 80%;
-    background-color: red;
-    height: 500px;
+   
+   height: 500px;
     display: flex;
     position: relative;
     margin: 0 auto;
@@ -30,9 +32,11 @@ button.next {
     
 }
 
-img {
-    width: 100%;
+div.carousel div.carousel-img img {
+    object-fit: cover;
     height: 100%;
+    width: 100%;
+    display: none;
 }
 
 button.prev {
@@ -43,4 +47,10 @@ button.prev {
 button.next {
     top: 50%;
     right: 0;
+}
+
+div.carousel div.carousel-img img.active {
+    display: block;
+    
+
 }
