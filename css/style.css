@@ -24,8 +24,8 @@ div.carousel {
 
 }
 
-button.next,
-button.before {
+button.prev,
+button.next {
     position: absolute;
     
 }
@@ -35,5 +35,12 @@ img {
     height: 100%;
 }
 
+button.prev {
+    top: 50%;
+    left: 0;
+}
 
-
+button.next {
+    top: 50%;
+    right: 0;
+}
