@@ -22,3 +22,24 @@ const images = [
     }
 ];
 
+
+const carouselElement = document.querySelector("div.carousel");
+
+let ActiveIndex = 3; 
+
+images.forEach((imgElement) => {
+    
+    carouselElement.innerHTML +=
+
+    `  <div class="carousel-img">
+                
+    <img src="${imgElement.image}" alt="Carousel image">
+
+    </div>
+`
+
+
+
+
+
+})
